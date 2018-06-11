@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+/*errors*/
+.error-container {
+	font-family: 'Merriweather Sans', sans-serif;
+	margin-top: 3%;
+	text-align: center;
+}
+
+.error-container img {
+    width: 50%;
+}
+
+.error-container p {
+	margin-top: 25px;
+    font-size: 0.9rem;
+}
+
+
+body {
+	width: 90%;
+	max-width: 1400px;
+	margin: 35px auto;
+}
+
+h3 {
+	text-align: center;
+	margin: 5px;
+}
+
+.login {
+	margin: 50px auto;
+	width: 400px;
+}
+
+.login>button[type="submit"] {
+	margin: auto;
+	display: block;
+	width: 100px;
+}
+
+.header .login-register {
+	float: right;
+}
+
+.two-inputs-in-one-line-1, .two-inputs-in-one-line-2 {
+	display: inline-block;
+	float: left;
+	width: 48%;
+}
+
+.two-inputs-in-one-line-2 {
+	float: right;
+}
+
+#userTabs {
+	margin-top: 15px;
+}
+
+.user-content {
+	border: 1px solid #dee2e6;
+    border-top: 0;
+    padding: 15px;
+}
+
+.user-content > .user-info-item {
+	padding: 3px 7px;
+	cursor: pointer;
+}
+
+.user-content > .user-info-item:hover {
+	background-color: #f8f9fa;
+	
+}
+
+.user-content > .user-info-item > .user-info-title {
+	display: inline-block;
+	width: 50%;
+}
+
+.user-content > .user-info-item > .user-info-value {
+	display: inline-block;
+	float: right;
+}
+
+.alert.alert-danger, .alert.info, .alert.alert-success {
+	margin: 20px;
+    display: inline-block;
+}
+
+.alert.info {
+	background-color: #e3f2fd;
+}
+
+.msg {
+	text-align: center;
+}
+
+.user-content > .flex-column.nav-pills {
+	width: 260px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.user-content > .account-content {
+	max-width: 1100px;
+	vertical-align: top;
+	margin-left: 280px;
+}
+
+#create-account-profile {
+	width: 250px;
+}
+
+.user-content .nav-link {
+    border-radius: .35rem;
+    border: 2px solid #f7f7f9;
+    margin-bottom: 5px;
+}
+
+.user-content .nav-link:not(.active):hover {
+    background-color: #f8f9fa;
+}
+
+.user-content .nav-link.active {
+	border: 2px solid transparent;
+}
+
+.account-info {
+	padding: 10px 15px;
+    border-radius: .35rem;
+    border: 2px solid #f7f7f9;
+    background-color: #f8f9fa;
+}
+
+.account-info strong {
+	color: #007bff;
+}
+
+.transfer .form-group {
+	width: 30%;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.transfer button {
+	display: block;
+    margin: 20px auto;
+}
+
+.history-item {
+	border-radius: .35rem;
+    border: 2px solid #f7f7f9;
+    margin-bottom: 5px;
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
+
+.history-item:hover {
+	background-color: #f8f9fa;
+}
+
+.date-filter {
+    text-align: center;
+    margin: 10px;
+}
+
+.date-filter > .form-group {
+	display: inline-block;
+	width: 270px;
+    vertical-align: top;
+    margin-bottom: 0px;
+}
